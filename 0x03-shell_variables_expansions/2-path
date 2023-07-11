@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -d */ /action | tail -n 1 && ls -d */ | grep -v /action
+export PATH=$PATH:/action
